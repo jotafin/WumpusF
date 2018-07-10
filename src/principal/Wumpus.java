@@ -172,7 +172,7 @@ public class Wumpus {
     }
 
     public void AndarCima() {
-        Visão[LinhaHeroi][ColunaHeroi] = Mapa[LinhaHeroi][ColunaHeroi];
+        
         Visão[LinhaHeroi][ColunaHeroi] ="k";
         LinhaHeroi = LinhaHeroi - 1;
         Visão[LinhaHeroi][ColunaHeroi] = Mapa[LinhaHeroi][ColunaHeroi] + Heroi;
@@ -180,7 +180,7 @@ public class Wumpus {
     }
 
     public void AndarBaixo() {
-        Visão[LinhaHeroi][ColunaHeroi] = Mapa[LinhaHeroi][ColunaHeroi];
+        
         Visão[LinhaHeroi][ColunaHeroi] ="k";
         LinhaHeroi = LinhaHeroi + 1;
         Visão[LinhaHeroi][ColunaHeroi] = Mapa[LinhaHeroi][ColunaHeroi] + Heroi;
@@ -188,7 +188,7 @@ public class Wumpus {
     }
 
     public void AndarDireita() {
-        Visão[LinhaHeroi][ColunaHeroi] = Mapa[LinhaHeroi][ColunaHeroi];
+        
         Visão[LinhaHeroi][ColunaHeroi] ="k";
         ColunaHeroi = ColunaHeroi + 1;
         Visão[LinhaHeroi][ColunaHeroi] = Mapa[LinhaHeroi][ColunaHeroi] + Heroi;
@@ -196,7 +196,7 @@ public class Wumpus {
     }
 
     public void AndarEsquerda() {
-        Visão[LinhaHeroi][ColunaHeroi] = Mapa[LinhaHeroi][ColunaHeroi];
+        
         Visão[LinhaHeroi][ColunaHeroi] ="k";
         ColunaHeroi = ColunaHeroi - 1;
         Visão[LinhaHeroi][ColunaHeroi] = Mapa[LinhaHeroi][ColunaHeroi] + Heroi;
